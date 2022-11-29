@@ -1,7 +1,5 @@
 #include "hello_world/hello_world_node.hpp"
 
-namespace autoware
-{
 namespace hello_world
 {
 
@@ -18,8 +16,7 @@ int32_t HelloWorldNode::print_hello() const
 }
 
 }  // namespace hello_world
-}  // namespace autoware
 
 #include "rclcpp_components/register_node_macro.hpp"
 
-RCLCPP_COMPONENTS_REGISTER_NODE(autoware::hello_world::HelloWorldNode)
+RCLCPP_COMPONENTS_REGISTER_NODE(hello_world::HelloWorldNode)

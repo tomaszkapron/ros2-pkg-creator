@@ -2,5 +2,5 @@
 #include "hello_world/hello_world.hpp"
 
 TEST(TestHelloWorld, TestHello) {
-  EXPECT_EQ(autoware::hello_world::print_hello(), 0);
+  EXPECT_EQ(hello_world::print_hello(), 0);
 }

@@ -45,7 +45,7 @@ ament_auto_add_library(${PROJECT_NAME}_node SHARED
 )
 
 rclcpp_components_register_node(${PROJECT_NAME}_node
-  PLUGIN "autoware::hello_world::HelloWorldNode"
+  PLUGIN "hello_world::HelloWorldNode"
   EXECUTABLE ${PROJECT_NAME}_node_exe
 )
 

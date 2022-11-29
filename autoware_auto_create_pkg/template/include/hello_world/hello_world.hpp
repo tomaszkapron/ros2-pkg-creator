@@ -5,14 +5,12 @@
 
 #include <cstdint>
 
-namespace autoware
-{
+
 namespace hello_world
 {
-    
+
 int32_t HELLO_WORLD_PUBLIC print_hello();
 
 }  // namespace hello_world
-}  // namespace autoware
 
 #endif  // HELLO_WORLD__HELLO_WORLD_HPP_

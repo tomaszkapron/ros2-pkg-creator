@@ -5,8 +5,6 @@
 
 #include <rclcpp/rclcpp.hpp>
 
-namespace autoware
-{
 namespace hello_world
 {
 
@@ -20,6 +18,5 @@ private:
   bool verbose;
 };
 }  // namespace hello_world
-}  // namespace autoware
 
 #endif  // HELLO_WORLD__HELLO_WORLD_NODE_HPP_

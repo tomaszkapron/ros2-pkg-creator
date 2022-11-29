@@ -2,8 +2,6 @@
 
 #include <iostream>
 
-namespace autoware
-{
 
 int32_t hello_world::print_hello()
 {
@@ -11,4 +9,3 @@ int32_t hello_world::print_hello()
   return 0;
 }
 
-}  // namespace autoware

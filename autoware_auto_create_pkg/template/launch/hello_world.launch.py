@@ -13,7 +13,7 @@ def generate_launch_description():
             composable_node_descriptions=[
                 ComposableNode(
                     package='hello_world',
-                    plugin='autoware::hello_world::HelloWorldNode',
+                    plugin='hello_world::HelloWorldNode',
                     name='hello_world_node'),
             ],
             output='screen',
