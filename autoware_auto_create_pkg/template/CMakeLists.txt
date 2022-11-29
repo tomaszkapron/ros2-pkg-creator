@@ -4,6 +4,12 @@ project(hello_world)
 
 # require that dependencies from package.xml be available
 find_package(ament_cmake_auto REQUIRED)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+add_compile_options(-std=c++17)
+
 ament_auto_find_build_dependencies(REQUIRED
   ${${PROJECT_NAME}_BUILD_DEPENDS}
   ${${PROJECT_NAME}_BUILDTOOL_DEPENDS}
